@@ -39,6 +39,13 @@ Docker
 To build your own Dockerimage run  
 `docker build -t openestatetoolserver:latest .`
 
+It uses:  
+Port `9001`  
+Volume `/var/lib/OpenEstate-ImmoServer/data`
+
+So you can run this by executing something like:  
+`docker run -p 9001:9001/tcp -v "/local/path/to/your/ImmoDB":"/var/lib/OpenEstate-ImmoServer/data" openestatetoolserver:latest`
+
 Changelog
 ---------
 
