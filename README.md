@@ -37,7 +37,7 @@ Docker
 ---------
 *OpenEstate-Tool-Server* can also be run as a Docker Container.
 To build your own Dockerimage run  
-`docker build . -t openestatetoolserver:latest`
+`docker build -t openestatetoolserver:latest .`
 
 Changelog
 ---------
