@@ -33,6 +33,12 @@ Dependencies
 -   [SLF4J 1.7.25](https://www.slf4j.org/)
 
 
+Docker
+---------
+*OpenEstate-Tool-Server* can also be run as a Docker Container.
+To build your own Dockerimage run  
+`docker build . -t openestatetoolserver:latest`
+
 Changelog
 ---------
 
